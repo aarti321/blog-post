@@ -31,6 +31,11 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+#challenges Faced :
+Setting up a development environment was first challenging, as I had problems installing Composer and PHP. Since either Composer or PHP wasn't well installed or configured, Laravel would not work. This was quite a tough time for implementing CRUD for a blog in Laravel, especially for a new individual. This is where troubleshooting environment variable and other dependency errors came in.
+
+I set up the environment, created the Post model and migration files, built a controller for CRUD – PostController, and designed the views with Blade templates. While there were some difficulties at the beginning, the strong Laravel documentation and community support helped to overcome such setup challenges.
+
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
@@ -66,3 +71,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
