@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+# myblog( https://github.com/aarti321/blog-post.git)
+
+Name : Aarati Bhattarai
+Student ID : 220266602
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -29,6 +33,14 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+#Challenges Faced :
+
+
+Setting up a development environment was first challenging, as I had problems installing Composer and PHP. Since either Composer or PHP wasn't well installed or configured, Laravel would not work. This was quite a tough time for implementing CRUD for a blog in Laravel, especially for a new individual. This is where troubleshooting environment variable and other dependency errors came in.
+
+
+I set up the environment, created the Post model and migration files, built a controller for CRUD – PostController, and designed the views with Blade templates. While there were some difficulties at the beginning, the strong Laravel documentation and community support helped to overcome such setup challenges.
 
 ## Laravel Sponsors
 
@@ -65,6 +77,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# blog-post
->>>>>>> b4cfdaa3d099859726a3ea274188814e58bd3d74
+
