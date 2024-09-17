@@ -6,10 +6,11 @@ use MongoDB\Laravel\Eloquent\Model as Eloquent;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Notifications\Notifiable;
+use Laravel\Sanctum\HasApiTokens;
 
 class User extends Eloquent implements AuthenticatableContract
 {
-    use Authenticatable, Notifiable;
+    use Authenticatable, Notifiable,HasApiTokens;
 
     /**
      * The attributes that are mass assignable.

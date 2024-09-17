@@ -13,11 +13,6 @@ Route::get('/', function () {
 });
 
 
-// blog
-use App\Http\Controllers\BlogController;
-
-Route::get('/posts', [BlogController::class, 'index']);
-Route::get('/posts/{id}', [BlogController::class, 'show']);
 
 
 Auth::routes();
