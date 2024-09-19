@@ -20,18 +20,18 @@ Student ID : 220266602
 
 ### Steps to Setup and Run the Backend:
 
-1. **Clone the Laravel repository**:
+ **Clone the Laravel repository**:
     ```bash
     git clone https://github.com/your-username/laravel-blog-api.git
     cd laravel-blog-api
     ```
 
-2. **Install dependencies**:
+ **Install dependencies**:
     ```bash
     composer install
     ```
 
-3. **Set up environment variables**:
+ **Set up environment variables**:
     - Copy the `.env.example` file to create a new `.env` file:
       ```bash
       cp .env.example .env
@@ -39,18 +39,18 @@ Student ID : 220266602
     - Update the MongoDB connection variables in the `.env` file:
      
 
-4. **Generate the application key**:
+ **Generate the application key**:
     ```bash
     php artisan key:generate
     ```
 
-5. **Migrate the database**:
+ **Migrate the database**:
     If you have migrations set up, run the following:
     ```bash
     php artisan migrate
     ```
 
-6. **Start the Laravel development server**:
+ **Start the Laravel development server**:
     ```bash
     php artisan serve
     ```
